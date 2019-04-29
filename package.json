@@ -1,7 +1,7 @@
 {
   "name": "robotics-portfolio-2",
   "version": "0.1.0",
-  "homepage": "http://kihtrakraknas.github.io/Robotics-Portfolio-2.0",
+  "homepage": "http://kihtrak.com/Robotics-Portfolio-2.0",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",

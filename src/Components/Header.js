@@ -15,10 +15,10 @@ export default class Header extends React.Component {
     render() {
       return (
         <Navbar bg="light" expand="lg" sticky="top">
-            <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+            <Navbar.Brand href="#home">Karthik's Portfolio</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mr-auto">
+                <Nav className="ml-auto">
                     <LinkContainer to="/"><Nav.Link >Home</Nav.Link></LinkContainer>
                     <LinkContainer to="/CAD"><Nav.Link >CAD</Nav.Link></LinkContainer>
                     <LinkContainer to="/Programming"><Nav.Link >Programming</Nav.Link></LinkContainer>

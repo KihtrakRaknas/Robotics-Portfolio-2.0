@@ -53,3 +53,16 @@ html,body{
 .game-info {
   margin-left: 20px;
 }
+
+h4{
+  font-size:5rem;
+}
+
+p{
+  font-size:1.3rem;
+  margin:5px;
+}
+
+.desc{
+  font-size: 1rem;
+}

@@ -9,7 +9,7 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 import { Parallax, Background } from 'react-parallax';
 
-
+import {Row,Col,Container,Card, Button, Carousel} from 'react-bootstrap';
 import CadView from './Views/CadView.js';
 import Header from './Components/Header.js';
 import Home from './Views/Home.js';
@@ -29,35 +29,22 @@ import Leadership from './Views/Leadership.js';
               <Route path="/Leadership" component={Leadership} />
             </Switch>
             </BrowserRouter>
-            <Parallax
-            bgImage={require('./images/placeholder.png')}
-            strength={800}
-            renderLayer={percentage => (
-                <div
-                    style={{
-                        position: 'absolute',
-                        background: `rgba(255, 125, 0, ${percentage * 1})`,
-                        left: '50%',
-                        top: '50%',
-                        width: percentage * 500,
-                        height: percentage * 500,
-                    }}
-                />
-            )}
-            >
-            <p>... Content</p>
-            <p>... Content</p>
-            <p>... Content</p>
-            <p>... Content</p>
-            <p>... Content</p>
-            <p>... Content</p>
-            <p>... Content</p><p>... Content</p>
-            <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-            </Parallax>
-                    <p>test</p>
 
-          <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-          
+
+            <footer style={{backgroundColor: "lightgrey", height: "150px"}}>
+            <Container>
+                <br/>
+                <br/>
+            <Row>
+                <Col sm="6">
+                    <p>Thanks for reading!</p>
+                </Col>
+                <Col sm="6">
+                    <p>Contact: <a href="mailto:karthikandsankar@gmail.com">karthikandsankar@gmail.com</a></p>
+                </Col>
+            </Row>
+            </Container>
+            </footer>
           </div>
       );
     }
