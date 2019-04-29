@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Robotics-Portfolio-2.0/precache-manifest.3e15d2c72a58d3829e5eb126dce5c003.js"
+  "/Robotics-Portfolio-2.0/precache-manifest.011d50b64c9e491f21e50bdc2344e4ec.js"
 );
 
 workbox.clientsClaim();
