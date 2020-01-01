@@ -23,6 +23,7 @@ export default class Header extends React.Component {
                     <LinkContainer to="/CAD"><Nav.Link >CAD</Nav.Link></LinkContainer>
                     <LinkContainer to="/Programming"><Nav.Link >Programming</Nav.Link></LinkContainer>
                     <LinkContainer to="/Leadership"><Nav.Link >Leadership</Nav.Link></LinkContainer>
+                    <Nav.Link href="https://kihtrak.com/Portfolio/">Last year's Portfolio</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

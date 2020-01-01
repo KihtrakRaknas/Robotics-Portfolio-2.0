@@ -20,7 +20,7 @@ import Leadership from './Views/Leadership.js';
     render() {
       return (
         <div>
-          <BrowserRouter>
+          <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Header/>
             <Switch>
               <Route exact path="/" component={Home} />
