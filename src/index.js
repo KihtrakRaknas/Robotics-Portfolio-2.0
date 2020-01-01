@@ -40,7 +40,7 @@ import Leadership from './Views/Leadership.js';
                     <p>Thanks for reading!</p>
                 </Col>
                 <Col sm="6">
-                    <p>Contact: <a href="mailto:karthikandsankar@gmail.com">karthikandsankar@gmail.com</a></p>
+                    <p>Contact: <a href="https://kihtrak.com/#Contact-Me">Click me for contact info</a></p>
                 </Col>
             </Row>
             </Container>
